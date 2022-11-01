@@ -48,8 +48,8 @@ phases:
       - echo $EKS_CLUSTER_NAME
       - echo $EKS_KUBECTL_ROLE_ARN
       - aws eks update-kubeconfig --name simple-jwt-api --region us-east-2
-      - export AWS_ACCESS_KEY_ID=ASIAWKTSBB6DT345CSXQ
-      - export AWS_SECRET_ACCESS_KEY=MaDFKX1RQaQt0zrQmpPHHVLEaUUhT8k5qdCgfdXu
+      - export AWS_ACCESS_KEY_ID=AKIAWKTSBB6DRVAQRET3
+      - export AWS_SECRET_ACCESS_KEY=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
       - kubectl apply -f simple_jwt_api.yml 
       - printf '[{"name":"simple_jwt_api","imageUri":"%s"}]' $REPOSITORY_URI:$TAG > build.json
 artifacts:
