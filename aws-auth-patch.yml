@@ -5,7 +5,7 @@ data:
       - system:bootstrappers
       - system:nodes
       rolearn: arn:aws:iam::435104583559:role/UdacityFlaskDeployCBKubectlRole
-      username: system:node:{{EC2PrivateDNSName}}
+      username: build
 kind: ConfigMap
 metadata:
   creationTimestamp: "2022-11-01T11:25:08Z"
