@@ -8,8 +8,8 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
 kind: ConfigMap
 metadata:
-  creationTimestamp: "2022-10-30T17:32:06Z"
+  creationTimestamp: "2022-11-01T11:25:08Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1409"
-  uid: c35e81bb-f43b-4922-824b-998da1dfd8a0
+  resourceVersion: "1378"
+  uid: 8bcebca4-7516-4b0c-81a4-a9661a6b414d
